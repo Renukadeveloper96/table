@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+table,th,td
+{
+border:1px solid green;
+padding:5px;
+}
+table{
+border-spacing:15px;
+}
+th{
+text-align:left;
+}
+
+</style>
+</head>
+<body>
+<h2>Border Spacing</h2>
+<p>Border spacing specifies the space between the cells.</p>
+<table style="width:100%">
+<tr>
+	<th>Name</th>
+	<th>Id</th>
+	<th>College</th>
+</tr>
+
+<tr>
+	<td>Renuka</td>
+	<td>407</td>
+	<td>AGMR</td>
+</tr>
+
+<tr>
+	<td>Charan</td>
+	<td>408</td>
+	<td>SET</td>
+</tr>
+
+<tr>
+<td>Ravi</td>
+<td>409</td>
+<td>SDM</td>
+</tr>
+
+<p><strong>Tip:</strong> Try to change the border -spacing to 5px.</p>
+</table>
+</body>
+</html>
